@@ -40,6 +40,8 @@ brew install exa
 brew install ripgrep
 brew install helix
 
+# install xcodedev tools needed for rust
+xcode-select --install
 #install oh my zsh
 #sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
