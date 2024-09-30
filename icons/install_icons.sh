@@ -31,4 +31,7 @@ for folder in "$icns_directory"/*; do
 	fi
 done
 
-killall Dock
+# the dock does not restart, after those commands log out and back in
+sudo rm -rf /Library/Caches/com.apple.iconservices.store
+sudo killall Finder
+sudo killall Dock

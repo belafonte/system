@@ -1,0 +1,20 @@
+# Apple
+.DS_Store
+# CLJ
+# .clj-kondo analyzer/linter
+# (ignore by subdir, because it can have non-ignorable things, e.g. config.edn)
+**/.clj-kondo/cache/
+**/.clj-kondo/.cache/
+**/.clj-kondo/babashka/
+**/.clj-kondo/better-cond/
+**/.clj-kondo/com.github.seancorfield/
+**/.clj-kondo/metosin/
+**/.clj-kondo/taoensso/
+**/.clj-kondo/http-kit/
+# lsp clj language server
+**/.lsp/sqlite.db
+**/.lsp/.cache/
+
+**/.worktree/**
+
+.vscode/

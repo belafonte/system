@@ -1,0 +1,30 @@
+[user]
+    name = Jan Pistor
+    email = pistor.jan@gmail.com
+    signingkey = 14DE4433E3627350
+
+[core]
+    excludesfile = ~/.config/git/ignore
+    editor = nvim
+
+[merge]
+    ff = only
+    tool = opendiff
+
+[init]
+    defaultBranch = main
+
+[pull]
+    ff = only
+
+[credential]
+    helper = osxkeychain
+
+[alias]
+    surfi = "!git submodule update --recursive --force --init"
+    surf = "!git submodule update --recursive --force"
+    suri = "!git submodule update --recursive --init"
+    sur = "!git submodule update --recursive"
+
+[commit]
+    ; gpgSign = true

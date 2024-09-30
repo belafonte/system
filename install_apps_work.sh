@@ -27,101 +27,30 @@ xcode-select --install
 brew update
 
 # Install my brew packages
-brew install fish
 brew install mas
 brew install mackup
 brew install wget
 brew install git
 brew install ffmpeg
+brew install fish
 brew install starship
 brew install tmux
 brew install nvim
 brew install rustup
-brew install eza
+brew install exa
 brew install ripgrep
 brew install lazygit
 brew install python
 brew install thefuck
 brew install asdf
 brew install bottom
-brew install gnupg
-brew install fzf
-brew install zoxide
-brew install gnu-sed
-brew install colima docker
-
-# needed for image nvim plugin
-brew install imagemagick
-brew install luarocks
-#luarocks --local --lua-version=5.1 install magick
 
 # installing cargo and rust
 rustup-init
 
-
-echo "Installing Apps"
-
-# Install App Store packages
-
-# Install Keynote
-mas install 409183694
-# Install Numbers
-mas install 409203825
-# Install Pages
-mas install 409201541
-# Install Cyberduck
-mas install 409222199
-# Install Pixelmator Pro
-mas install 1289583905
-# Install Screens 4
-mas install 1224268771
-# Install Mind Node 6
-# mas install 1289197285
-# Install Mindly
-# mas install 1023136295
-# Install  Amphetamine
-mas install 937984704
-# Install  Lime Chat
-# mas install 414030210
-# Install  WhatsApp Desktop
-mas install 1147396723
-# Install  Telegram
-mas install 747648890
-# Install  XCode
-mas install 497799835
-sudo xcodebuild -license accept
-sudo xcode-select --switch /Applications/Xcode.app
-
-# Install  ifolor Designer 
-mas install 446366603
-# Install Timeline Time Tracking
-mas install 589698946
-# Install WireGuard
-# mas install 1451685025
-# Install DaVinci Resolve
-# mas install 571213070
-# Install Final Cut Pro
-mas install 424389933
-# install Compressor
-mas install 424390742
-# install Affinity Designer
-mas install 824171161
-# install Affiniy Publisher
-mas install 881418622
-# install Bitwarden
-mas install 1352778147
-# install Blackmagic Speed Test
-mas install 425264550
-
-# Safari Extensions
-# install Vimari
-mas install 1480933944
-#install Vinegar Tube Cleaner
-mas install 1591303229
-
 # Install cask packages
 # brew install --cask 1password
-brew install --cask iterm2
+brew install --cask homebrew/cask-versions/iterm2-beta
 brew install --cask processing
 brew install --cask signal
 # brew install --cask cakebrew
@@ -152,7 +81,6 @@ brew install --cask drawio
 # brew install --cask unity-hub
 # brew install --cask handbrake
 brew install --cask syntax-highlight
-brew install --cask qlmarkdown
 # brew install --cask figma
 brew install --cask visual-studio-code
 brew install --cask miro
@@ -165,15 +93,15 @@ brew install --cask mouse-fix
 brew install --cask monitorcontrol
 brew install --cask kap
 brew install --cask kitty
-brew install --cask obsidian
 brew install --cask --no-quarantine middleclick
 # add middle click to login items
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/MiddleClick.app", hidden:true}'
 
 # installing fonts
 brew tap homebrew/cask-fonts
-# brew install --cask font-fira-code-nerd-eont
-brew install --cask font-jetbrains-mono-nerd-font 
+# brew install --cask font-fira-code-nerd-font
+brew install --cask font-jetbrains-mono
+
 
 # Setup Icons
 read -p "Setting up Icons... " -n1 -s
@@ -194,8 +122,6 @@ echo '\n'
 # Remove brew cruft
 brew cleanup
 
-# defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/.config/iterm2"
-# defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 
 echo "Configure Mackup"
 
@@ -211,3 +137,4 @@ echo "add this to the terminal to run fish on start: /opt/homebrew/bin/fish"
 
 read -p "Setting up Computer done, press any key to finish" -n1 -s
 echo '\n'
+
