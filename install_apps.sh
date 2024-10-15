@@ -121,12 +121,9 @@ mas install 1591303229
 
 # Install cask packages
 # brew install --cask 1password
-brew install --cask iterm2
+# brew install --cask iterm2
 brew install --cask processing
 brew install --cask signal
-# brew install --cask cakebrew
-# brew install --cask coconutbattery
-# brew install --cask dropbox
 # brew install --cask dozer
 
 # brew install --cask qlimagesize
@@ -139,24 +136,17 @@ brew install --cask spotify
 brew install --cask touchdesigner
 brew install --cask google-chrome
 brew install --cask firefox
-# brew install --cask fork
-# brew install --cask sublime-text
-# brew install --cask sketch
 brew install --cask vlc
-# brew install --cask textmate
 # brew install --cask adobe-creative-cloud
 brew install --cask appcleaner
 brew install --cask drawio
 # brew install --cask google-backup-and-sync
-# brew install --cask unity
-# brew install --cask unity-hub
-# brew install --cask handbrake
 brew install --cask syntax-highlight
 brew install --cask qlmarkdown
 # brew install --cask figma
 brew install --cask visual-studio-code
 brew install --cask miro
-brew install --cask macvim
+# brew install --cask macvim
 # brew install --cask microsoft-teams
 # brew install --cask zoom
 brew install --cask element
@@ -166,6 +156,8 @@ brew install --cask monitorcontrol
 brew install --cask kap
 brew install --cask kitty
 brew install --cask obsidian
+brew install --cask neovide
+brew install --cask rio
 brew install --cask --no-quarantine middleclick
 # add middle click to login items
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/MiddleClick.app", hidden:true}'
@@ -178,18 +170,6 @@ brew install --cask font-jetbrains-mono-nerd-font
 # Setup Icons
 read -p "Setting up Icons... " -n1 -s
 echo '\n'
-
-# Spotify
-#cd "/Users/dreieinsvier/Library/Mobile Documents/com~apple~CloudDocs/System/icons/"
-#cp "Spotify.icns /Applications/Spotify.app/Contents/Resources/"
-#cd /Applications/Spotify.app/Contents/Resources/
-#mv Spotify.icns Icon.icns
-#
-## Kitty
-#cd "/Users/dreieinsvier/Library/Mobile Documents/com~apple~CloudDocs/System/icons/"
-#cp "Terminal.icns /Applications/kitty.app/Contents/Resources/"
-#cd /Applications/kitty.app/Contents/Resources/
-#mv Terminal.icns kitty.icns
 
 # Remove brew cruft
 brew cleanup
