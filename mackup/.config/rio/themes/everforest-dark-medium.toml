@@ -1,0 +1,56 @@
+# ~/.config/rio/themes/everforest_dark_medium.toml
+
+[colors]
+background = "#2e353b"
+foreground = "#d3c6aa"
+
+# Selection
+selection-background = "#573e4c"
+selection-foreground = "#9da9a0"
+
+# Navigation
+tabs-active = "#2e353b"
+tabs-active-foreground = "#d3c6aa"
+tabs-active-highlight = "#2e353b"
+bar = "#374247"
+cursor = "#d3c6aa"
+vi-cursor = "#374247"
+
+# Search
+search-match-background = "#7fbbb3"  # Using mark1 background
+search-match-foreground = "#2e353b"  # Using mark1 foreground
+search-focused-match-background = "#d3c6aa"  # Using mark2 background
+search-focused-match-foreground = "#2e353b"  # Using mark2 foreground
+
+# Regular colors
+black = "#374247"
+blue = "#7fbbb3"
+cyan = "#83c092"
+green = "#a7c080"
+magenta = "#d699b6"
+red = "#e67e80"
+tabs = "#404c51"
+white = "#859289"
+yellow = "#dbbc7f"
+
+# Dim colors
+dim-black = "#404c51"
+dim-blue = "#7fbbb3"
+dim-cyan = "#83c092"
+dim-foreground = "#9da9a0"
+dim-green = "#a7c080"
+dim-magenta = "#d699b6"
+dim-red = "#e67e80"
+dim-white = "#9da9a0"
+dim-yellow = "#dbbc7f"
+
+# Light colors
+light-black = "#404c51"
+light-blue = "#7fbbb3"
+light-cyan = "#83c092"
+light-foreground = "#9da9a0"
+light-green = "#a7c080"
+light-magenta = "#d699b6"
+light-red = "#e67e80"
+light-white = "#9da9a0"
+light-yellow = "#dbbc7f"
