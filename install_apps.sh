@@ -49,6 +49,7 @@ brew install fzf
 brew install zoxide
 brew install gnu-sed
 brew install colima docker
+brew install git-delta
 
 # needed for image nvim plugin
 brew install imagemagick

@@ -3,3 +3,4 @@ export NEOVIDE_NO_MULTIGRID=true
 export NEOVIDE_FRAME=transparent
 
 export NVIM_APPNAME=astronvim4
+export GIT_PAGER=delta
