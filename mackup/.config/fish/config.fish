@@ -51,6 +51,16 @@ abbr dbdev 'DB_NAME=leihs_dev'
 abbr dbtest 'DB_NAME=leihs_test'
 abbr rrs "DB_NAME=leihs_test ./bin/rspec "
 
+function tn2
+    set session_name (pwd | sed 's/.*\///g')
+    if tmux has-session -t $session_name 2>/dev/null
+        tmux attach -t $session_name
+    else
+        tmux new -s $session_name \; \
+        split-window -h \; \
+        select-pane -t 1
+    end
+end
 
 function tn3
     set session_name (pwd | sed 's/.*\///g')
